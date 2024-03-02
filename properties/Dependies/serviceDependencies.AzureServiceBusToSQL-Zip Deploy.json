@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "storage1": {
+            "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcesGroups/[parameters('resourcesGroupName')]/providers/microsoft.storage/storageAccounts/project20240302",
+            "type": "storage.azure",
+            "connectionId": "AzureWebJobsStorage"
+        },
+        "appInsights1": {
+            "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcesGroups/[parameters('resourcesGroupName')]/providers/microsoft.insights/components/project20240302",
+            "type": "appInsights.azure",
+            "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+        }    
+    }
+}
